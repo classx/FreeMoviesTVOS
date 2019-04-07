@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7287002222562D5200ED7ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287002122562D5200ED7ADF /* AppDelegate.swift */; };
+		7287002922562D5400ED7ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7287002822562D5400ED7ADF /* Assets.xcassets */; };
+		7287004022562DF200ED7ADF /* PDMovieKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7287003F22562DF200ED7ADF /* PDMovieKit_tvOS.framework */; };
+		72A01CEF225A1EDC00FAA293 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A01CED225A1EDC00FAA293 /* FeaturedViewController.swift */; };
+		72A01CF0225A1EDC00FAA293 /* FeaturedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A01CEE225A1EDC00FAA293 /* FeaturedViewController.xib */; };
+		72A01CF3225A2BDF00FAA293 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A01CF1225A2BDF00FAA293 /* ItemCollectionViewCell.swift */; };
+		72A01CF8225A3A7300FAA293 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A01CF7225A3A7300FAA293 /* HeaderCollectionReusableView.swift */; };
+		72A01CFA225A3D8D00FAA293 /* DependancyInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A01CF9225A3D8D00FAA293 /* DependancyInversion.swift */; };
+		72A01CFC225A3F5900FAA293 /* ContentPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A01CFB225A3F5900FAA293 /* ContentPresentation.swift */; };
+		72A01CFE225A429200FAA293 /* FreeMoviesMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A01CFD225A429200FAA293 /* FreeMoviesMain.swift */; };
+		72A01D00225A43AA00FAA293 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A01CFF225A43AA00FAA293 /* LoadingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7287003022562D5400ED7ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7287001622562D5200ED7ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7287001D22562D5200ED7ADF;
+			remoteInfo = FreeMoviesTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7287001E22562D5200ED7ADF /* FreeMoviesTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMoviesTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7287002122562D5200ED7ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7287002822562D5400ED7ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7287002A22562D5400ED7ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7287002F22562D5400ED7ADF /* FreeMoviesTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMoviesTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7287003522562D5400ED7ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7287003F22562DF200ED7ADF /* PDMovieKit_tvOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDMovieKit_tvOS.framework; path = Carthage/Build/tvOS/PDMovieKit_tvOS.framework; sourceTree = "<group>"; };
+		72A01CED225A1EDC00FAA293 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		72A01CEE225A1EDC00FAA293 /* FeaturedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedViewController.xib; sourceTree = "<group>"; };
+		72A01CF1225A2BDF00FAA293 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A01CF7225A3A7300FAA293 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		72A01CF9225A3D8D00FAA293 /* DependancyInversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependancyInversion.swift; sourceTree = "<group>"; };
+		72A01CFB225A3F5900FAA293 /* ContentPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPresentation.swift; sourceTree = "<group>"; };
+		72A01CFD225A429200FAA293 /* FreeMoviesMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMoviesMain.swift; sourceTree = "<group>"; };
+		72A01CFF225A43AA00FAA293 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7287001B22562D5200ED7ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7287004022562DF200ED7ADF /* PDMovieKit_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7287002C22562D5400ED7ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7287001522562D5200ED7ADF = {
+			isa = PBXGroup;
+			children = (
+				7287002022562D5200ED7ADF /* FreeMoviesTV */,
+				7287003222562D5400ED7ADF /* FreeMoviesTVTests */,
+				7287001F22562D5200ED7ADF /* Products */,
+				7287003E22562DF200ED7ADF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7287001F22562D5200ED7ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7287001E22562D5200ED7ADF /* FreeMoviesTV.app */,
+				7287002F22562D5400ED7ADF /* FreeMoviesTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7287002022562D5200ED7ADF /* FreeMoviesTV */ = {
+			isa = PBXGroup;
+			children = (
+				7287002122562D5200ED7ADF /* AppDelegate.swift */,
+				72A01CFD225A429200FAA293 /* FreeMoviesMain.swift */,
+				72A01CF9225A3D8D00FAA293 /* DependancyInversion.swift */,
+				72A01CFB225A3F5900FAA293 /* ContentPresentation.swift */,
+				72A01CFF225A43AA00FAA293 /* LoadingViewController.swift */,
+				72A01CED225A1EDC00FAA293 /* FeaturedViewController.swift */,
+				72A01CEE225A1EDC00FAA293 /* FeaturedViewController.xib */,
+				72A01CF1225A2BDF00FAA293 /* ItemCollectionViewCell.swift */,
+				72A01CF7225A3A7300FAA293 /* HeaderCollectionReusableView.swift */,
+				7287002822562D5400ED7ADF /* Assets.xcassets */,
+				7287002A22562D5400ED7ADF /* Info.plist */,
+			);
+			path = FreeMoviesTV;
+			sourceTree = "<group>";
+		};
+		7287003222562D5400ED7ADF /* FreeMoviesTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				7287003522562D5400ED7ADF /* Info.plist */,
+			);
+			path = FreeMoviesTVTests;
+			sourceTree = "<group>";
+		};
+		7287003E22562DF200ED7ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7287003F22562DF200ED7ADF /* PDMovieKit_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7287001D22562D5200ED7ADF /* FreeMoviesTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7287003822562D5400ED7ADF /* Build configuration list for PBXNativeTarget "FreeMoviesTV" */;
+			buildPhases = (
+				7287001A22562D5200ED7ADF /* Sources */,
+				7287001B22562D5200ED7ADF /* Frameworks */,
+				7287001C22562D5200ED7ADF /* Resources */,
+				7287004122562E1B00ED7ADF /* ShellScript */,
+				728E610B2256583700823D9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeMoviesTV;
+			productName = FreeMoviesTV;
+			productReference = 7287001E22562D5200ED7ADF /* FreeMoviesTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7287002E22562D5400ED7ADF /* FreeMoviesTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7287003B22562D5400ED7ADF /* Build configuration list for PBXNativeTarget "FreeMoviesTVTests" */;
+			buildPhases = (
+				7287002B22562D5400ED7ADF /* Sources */,
+				7287002C22562D5400ED7ADF /* Frameworks */,
+				7287002D22562D5400ED7ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7287003122562D5400ED7ADF /* PBXTargetDependency */,
+			);
+			name = FreeMoviesTVTests;
+			productName = FreeMoviesTVTests;
+			productReference = 7287002F22562D5400ED7ADF /* FreeMoviesTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7287001622562D5200ED7ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Pete Morris";
+				TargetAttributes = {
+					7287001D22562D5200ED7ADF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7287002E22562D5400ED7ADF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7287001D22562D5200ED7ADF;
+					};
+				};
+			};
+			buildConfigurationList = 7287001922562D5200ED7ADF /* Build configuration list for PBXProject "FreeMoviesTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7287001522562D5200ED7ADF;
+			productRefGroup = 7287001F22562D5200ED7ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7287001D22562D5200ED7ADF /* FreeMoviesTV */,
+				7287002E22562D5400ED7ADF /* FreeMoviesTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7287001C22562D5200ED7ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A01CF0225A1EDC00FAA293 /* FeaturedViewController.xib in Resources */,
+				7287002922562D5400ED7ADF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7287002D22562D5400ED7ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7287004122562E1B00ED7ADF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/PDMovieKit_tvOS.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PDMovieKit_tvOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		728E610B2256583700823D9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7287001A22562D5200ED7ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A01CF8225A3A7300FAA293 /* HeaderCollectionReusableView.swift in Sources */,
+				72A01CFA225A3D8D00FAA293 /* DependancyInversion.swift in Sources */,
+				72A01CF3225A2BDF00FAA293 /* ItemCollectionViewCell.swift in Sources */,
+				72A01D00225A43AA00FAA293 /* LoadingViewController.swift in Sources */,
+				72A01CFE225A429200FAA293 /* FreeMoviesMain.swift in Sources */,
+				72A01CEF225A1EDC00FAA293 /* FeaturedViewController.swift in Sources */,
+				7287002222562D5200ED7ADF /* AppDelegate.swift in Sources */,
+				72A01CFC225A3F5900FAA293 /* ContentPresentation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7287002B22562D5400ED7ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7287003122562D5400ED7ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7287001D22562D5200ED7ADF /* FreeMoviesTV */;
+			targetProxy = 7287003022562D5400ED7ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7287003622562D5400ED7ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		7287003722562D5400ED7ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7287003922562D5400ED7ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7682PK9SF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = FreeMoviesTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.petemorris.FreeMoviesTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		7287003A22562D5400ED7ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7682PK9SF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = FreeMoviesTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.petemorris.FreeMoviesTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
+		7287003C22562D5400ED7ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7682PK9SF;
+				INFOPLIST_FILE = FreeMoviesTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.petemorris.FreeMoviesTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeMoviesTV.app/FreeMoviesTV";
+			};
+			name = Debug;
+		};
+		7287003D22562D5400ED7ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7682PK9SF;
+				INFOPLIST_FILE = FreeMoviesTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.petemorris.FreeMoviesTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeMoviesTV.app/FreeMoviesTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7287001922562D5200ED7ADF /* Build configuration list for PBXProject "FreeMoviesTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7287003622562D5400ED7ADF /* Debug */,
+				7287003722562D5400ED7ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7287003822562D5400ED7ADF /* Build configuration list for PBXNativeTarget "FreeMoviesTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7287003922562D5400ED7ADF /* Debug */,
+				7287003A22562D5400ED7ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7287003B22562D5400ED7ADF /* Build configuration list for PBXNativeTarget "FreeMoviesTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7287003C22562D5400ED7ADF /* Debug */,
+				7287003D22562D5400ED7ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7287001622562D5200ED7ADF /* Project object */;
+}

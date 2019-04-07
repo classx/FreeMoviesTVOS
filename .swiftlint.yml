@@ -1,0 +1,4 @@
+excluded:
+- Carthage
+- PDMovieKitTests
+disabled_rules:
