@@ -46,6 +46,7 @@ protocol ItemShelves {
     ///     - shelfIndex: The index of the section in which the given item is contained.
     /// - returns: A `String` representing the title of the item at the given set of indexes.
     func itemTitle(at itemIndex: Int, onShelf shelfIndex: Int) -> String
+    func itemImage(at itemIndex: Int, onShelf shelfIndex: Int, completion: @escaping (Data?) -> Void)
 }
 
 /// Generic implementation of `ItemShelves`.
@@ -69,5 +70,13 @@ class ContentShelves: ItemShelves {
     }
     func itemTitle(at itemIndex: Int, onShelf shelfIndex: Int) -> String {
         return shelves[shelfIndex].items[itemIndex].title.capitalized
+    }
+    func itemImage(at itemIndex: Int, onShelf shelfIndex: Int, completion: @escaping (Data?) -> Void) {
+        guard let url = shelves[shelfIndex].items[itemIndex].thumbnailURL else { return }
+        URLSession.shared.dataTask(with: url) { data, _, _ in
+            DispatchQueue.main.async {
+                completion(data)
+            }
+        }.resume()
     }
 }

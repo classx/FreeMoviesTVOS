@@ -30,6 +30,8 @@ class ItemCollectionViewCell: UICollectionViewCell {
     func sharedInit() {
         layoutTitleLabel()
         layoutImageView()
+        backgroundColor = UIColor.gray
+        imageView.adjustsImageWhenAncestorFocused = true
     }
     func layoutTitleLabel() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
